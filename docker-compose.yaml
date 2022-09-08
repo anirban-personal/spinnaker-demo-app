@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  anirbanapp1:
+    image: anirbanapp:v1
+    build: .
+    container_name: anirban1
+    ports:
+      - "1294:80"
